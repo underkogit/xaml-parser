@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xaml-parser", "xaml-parser\xaml-parser.csproj", "{64E9281A-B940-4A3A-B970-92236B58B819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlParserConsoleApp", "XamlParserConsoleApp\XamlParserConsoleApp.csproj", "{704C540E-A288-48F0-94B5-5A76ABB5DB82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64E9281A-B940-4A3A-B970-92236B58B819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E9281A-B940-4A3A-B970-92236B58B819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E9281A-B940-4A3A-B970-92236B58B819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E9281A-B940-4A3A-B970-92236B58B819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704C540E-A288-48F0-94B5-5A76ABB5DB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704C540E-A288-48F0-94B5-5A76ABB5DB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704C540E-A288-48F0-94B5-5A76ABB5DB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704C540E-A288-48F0-94B5-5A76ABB5DB82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14F9C97-03EA-4AB6-875B-6D1304A36DFA}
+	EndGlobalSection
+EndGlobal
