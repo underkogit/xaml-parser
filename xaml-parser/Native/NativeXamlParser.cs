@@ -84,9 +84,16 @@ public static class NativeXamlParser
             GC.SuppressFinalize(this);
         }
 
+        /// <summary>
+        /// Финализатор для освобождения ресурсов в случае, если Dispose не был вызван.
+        /// </summary>
         ~XamlElementWrapper()
         {
             Dispose();
         }
+
+        
     }
+
+    
 }
